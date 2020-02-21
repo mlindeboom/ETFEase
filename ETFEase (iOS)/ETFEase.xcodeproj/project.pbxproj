@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ETFEaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ETFEaseAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4C86721712ED1AE800CA3B3E /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C86721612ED1AE800CA3B3E /* YAJL.framework */; };
+		4C879A6D12CE390D007B5746 /* PortfolioList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C879A6C12CE390D007B5746 /* PortfolioList.m */; };
+		4C879B3C12CE7E4E007B5746 /* TradeDetailVCForPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C879B3B12CE7E4E007B5746 /* TradeDetailVCForPortfolio.m */; };
+		4C8BFD6112C2F51E00083114 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5212C2F51E00083114 /* Constants.m */; };
+		4C8BFD6212C2F51E00083114 /* ETF.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5412C2F51E00083114 /* ETF.m */; };
+		4C8BFD6312C2F51E00083114 /* ETFList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5612C2F51E00083114 /* ETFList.m */; };
+		4C8BFD6412C2F51E00083114 /* ETFType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5812C2F51E00083114 /* ETFType.m */; };
+		4C8BFD6512C2F51E00083114 /* Trade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5A12C2F51E00083114 /* Trade.m */; };
+		4C8BFD6612C2F51E00083114 /* Trades.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5C12C2F51E00083114 /* Trades.m */; };
+		4C8BFD6712C2F51E00083114 /* UrlDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD5E12C2F51E00083114 /* UrlDownloaderOperation.m */; };
+		4C8BFD6812C2F51E00083114 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFD6012C2F51E00083114 /* XMLParser.m */; };
+		4C8BFE9712C4F65400083114 /* ETFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFE9612C4F65400083114 /* ETFCell.m */; };
+		4C8BFE9D12C53EF600083114 /* ETFCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BFE9C12C53EF600083114 /* ETFCell.xib */; };
+		4C9C26FB12FE02D400AD2F8C /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C26FA12FE02D400AD2F8C /* JSONParser.m */; };
+		4CA3A30712CE8839004CC535 /* TradeDetailForPortfolio.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA3A30612CE8839004CC535 /* TradeDetailForPortfolio.xib */; };
+		4CA9CC7112C7F7D000F05A43 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7012C7F7D000F05A43 /* filter.png */; };
+		4CA9CC7512C7F80000F05A43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7412C7F80000F05A43 /* icon.png */; };
+		4CA9CC7912C7F81900F05A43 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7812C7F81900F05A43 /* add.png */; };
+		4CA9CC8512C7F84600F05A43 /* markets_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7C12C7F84600F05A43 /* markets_selected.png */; };
+		4CA9CC8612C7F84600F05A43 /* markets_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7D12C7F84600F05A43 /* markets_unselected.png */; };
+		4CA9CC8712C7F84600F05A43 /* news_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7E12C7F84600F05A43 /* news_selected.png */; };
+		4CA9CC8812C7F84600F05A43 /* news_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC7F12C7F84600F05A43 /* news_unselected.png */; };
+		4CA9CC8912C7F84600F05A43 /* portfolio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC8012C7F84600F05A43 /* portfolio_selected.png */; };
+		4CA9CC8A12C7F84600F05A43 /* portfolio_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC8112C7F84600F05A43 /* portfolio_unselected.png */; };
+		4CA9CC8B12C7F84600F05A43 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC8212C7F84600F05A43 /* refresh.png */; };
+		4CA9CC8C12C7F84600F05A43 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC8312C7F84600F05A43 /* remove.png */; };
+		4CA9CC8D12C7F84600F05A43 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC8412C7F84600F05A43 /* search.png */; };
+		4CA9CC9A12C8093100F05A43 /* icon_sort_az.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CC9912C8093100F05A43 /* icon_sort_az.png */; };
+		4CA9CCB012C8E97F00F05A43 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9CCAF12C8E97F00F05A43 /* FilterViewController.m */; };
+		4CA9CD1912C92C3A00F05A43 /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CD1812C92C3A00F05A43 /* FilterView.xib */; };
+		4CA9CDC112C996F200F05A43 /* VariableStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9CDC012C996F200F05A43 /* VariableStore.m */; };
+		4CA9CF9A12CAFF0300F05A43 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9CF9912CAFF0300F05A43 /* StrategyViewController.m */; };
+		4CA9CF9F12CAFF1F00F05A43 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9CF9E12CAFF1F00F05A43 /* SortViewController.m */; };
+		4CA9CFA512CB03E900F05A43 /* StrategyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CFA412CB03E900F05A43 /* StrategyView.xib */; };
+		4CA9CFC212CB0E7A00F05A43 /* SortView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CFC112CB0E7A00F05A43 /* SortView.xib */; };
+		4CA9D0D012CBCDCA00F05A43 /* TradeDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D0CF12CBCDCA00F05A43 /* TradeDetails.xib */; };
+		4CA9D0DE12CBDA6000F05A43 /* TradeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9D0DD12CBDA6000F05A43 /* TradeDetailsViewController.m */; };
+		4CA9D25B12CD24AC00F05A43 /* TradeDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9D25A12CD24AC00F05A43 /* TradeDetailCell.m */; };
+		4CA9D26812CD2BB800F05A43 /* TradeDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9D26712CD2BB800F05A43 /* TradeDetailCell.xib */; };
+		4CB72E1E12C2429300577378 /* ListTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB72E1D12C2429300577378 /* ListTab.m */; };
+		4CB72E2312C2430700577378 /* PortfolioTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB72E2212C2430700577378 /* PortfolioTab.m */; };
+		4CB72E2712C244D200577378 /* ListTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB72E2612C244D200577378 /* ListTab.xib */; };
+		4CB72E3112C247A000577378 /* PortfolioTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB72E3012C247A000577378 /* PortfolioTab.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ETFEaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFEaseAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ETFEaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFEaseAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ETFEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETFEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ETFEase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFEase_Prefix.pch; sourceTree = "<group>"; };
+		4C86721612ED1AE800CA3B3E /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = Frameworks/YAJL.framework; sourceTree = "<group>"; };
+		4C879A6B12CE390D007B5746 /* PortfolioList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioList.h; sourceTree = "<group>"; };
+		4C879A6C12CE390D007B5746 /* PortfolioList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioList.m; sourceTree = "<group>"; };
+		4C879B3A12CE7E4E007B5746 /* TradeDetailVCForPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeDetailVCForPortfolio.h; sourceTree = "<group>"; };
+		4C879B3B12CE7E4E007B5746 /* TradeDetailVCForPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeDetailVCForPortfolio.m; sourceTree = "<group>"; };
+		4C8BFD5112C2F51E00083114 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = DataSource/Constants.h; sourceTree = "<group>"; };
+		4C8BFD5212C2F51E00083114 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = DataSource/Constants.m; sourceTree = "<group>"; };
+		4C8BFD5312C2F51E00083114 /* ETF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETF.h; path = DataSource/ETF.h; sourceTree = "<group>"; };
+		4C8BFD5412C2F51E00083114 /* ETF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETF.m; path = DataSource/ETF.m; sourceTree = "<group>"; };
+		4C8BFD5512C2F51E00083114 /* ETFList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETFList.h; path = DataSource/ETFList.h; sourceTree = "<group>"; };
+		4C8BFD5612C2F51E00083114 /* ETFList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETFList.m; path = DataSource/ETFList.m; sourceTree = "<group>"; };
+		4C8BFD5712C2F51E00083114 /* ETFType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETFType.h; path = DataSource/ETFType.h; sourceTree = "<group>"; };
+		4C8BFD5812C2F51E00083114 /* ETFType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETFType.m; path = DataSource/ETFType.m; sourceTree = "<group>"; };
+		4C8BFD5912C2F51E00083114 /* Trade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trade.h; path = DataSource/Trade.h; sourceTree = "<group>"; };
+		4C8BFD5A12C2F51E00083114 /* Trade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trade.m; path = DataSource/Trade.m; sourceTree = "<group>"; };
+		4C8BFD5B12C2F51E00083114 /* Trades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trades.h; path = DataSource/Trades.h; sourceTree = "<group>"; };
+		4C8BFD5C12C2F51E00083114 /* Trades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trades.m; path = DataSource/Trades.m; sourceTree = "<group>"; };
+		4C8BFD5D12C2F51E00083114 /* UrlDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UrlDownloaderOperation.h; path = DataSource/UrlDownloaderOperation.h; sourceTree = "<group>"; };
+		4C8BFD5E12C2F51E00083114 /* UrlDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UrlDownloaderOperation.m; path = DataSource/UrlDownloaderOperation.m; sourceTree = "<group>"; };
+		4C8BFD5F12C2F51E00083114 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = DataSource/XMLParser.h; sourceTree = "<group>"; };
+		4C8BFD6012C2F51E00083114 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLParser.m; path = DataSource/XMLParser.m; sourceTree = "<group>"; };
+		4C8BFE9512C4F65400083114 /* ETFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFCell.h; sourceTree = "<group>"; };
+		4C8BFE9612C4F65400083114 /* ETFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFCell.m; sourceTree = "<group>"; };
+		4C8BFE9C12C53EF600083114 /* ETFCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ETFCell.xib; sourceTree = "<group>"; };
+		4C9C26F912FE02D400AD2F8C /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		4C9C26FA12FE02D400AD2F8C /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		4CA3A30612CE8839004CC535 /* TradeDetailForPortfolio.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradeDetailForPortfolio.xib; sourceTree = "<group>"; };
+		4CA9CC7012C7F7D000F05A43 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
+		4CA9CC7412C7F80000F05A43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4CA9CC7812C7F81900F05A43 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		4CA9CC7C12C7F84600F05A43 /* markets_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markets_selected.png; sourceTree = "<group>"; };
+		4CA9CC7D12C7F84600F05A43 /* markets_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markets_unselected.png; sourceTree = "<group>"; };
+		4CA9CC7E12C7F84600F05A43 /* news_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news_selected.png; sourceTree = "<group>"; };
+		4CA9CC7F12C7F84600F05A43 /* news_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news_unselected.png; sourceTree = "<group>"; };
+		4CA9CC8012C7F84600F05A43 /* portfolio_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolio_selected.png; sourceTree = "<group>"; };
+		4CA9CC8112C7F84600F05A43 /* portfolio_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolio_unselected.png; sourceTree = "<group>"; };
+		4CA9CC8212C7F84600F05A43 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		4CA9CC8312C7F84600F05A43 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+		4CA9CC8412C7F84600F05A43 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		4CA9CC9912C8093100F05A43 /* icon_sort_az.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sort_az.png; sourceTree = "<group>"; };
+		4CA9CCAE12C8E97F00F05A43 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		4CA9CCAF12C8E97F00F05A43 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		4CA9CD1812C92C3A00F05A43 /* FilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		4CA9CDBF12C996F200F05A43 /* VariableStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariableStore.h; sourceTree = "<group>"; };
+		4CA9CDC012C996F200F05A43 /* VariableStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariableStore.m; sourceTree = "<group>"; };
+		4CA9CF9812CAFF0300F05A43 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		4CA9CF9912CAFF0300F05A43 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		4CA9CF9D12CAFF1F00F05A43 /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
+		4CA9CF9E12CAFF1F00F05A43 /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		4CA9CFA412CB03E900F05A43 /* StrategyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StrategyView.xib; sourceTree = "<group>"; };
+		4CA9CFC112CB0E7A00F05A43 /* SortView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortView.xib; sourceTree = "<group>"; };
+		4CA9D0CF12CBCDCA00F05A43 /* TradeDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradeDetails.xib; sourceTree = "<group>"; };
+		4CA9D0DC12CBDA6000F05A43 /* TradeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeDetailsViewController.h; sourceTree = "<group>"; };
+		4CA9D0DD12CBDA6000F05A43 /* TradeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeDetailsViewController.m; sourceTree = "<group>"; };
+		4CA9D25912CD24AC00F05A43 /* TradeDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeDetailCell.h; sourceTree = "<group>"; };
+		4CA9D25A12CD24AC00F05A43 /* TradeDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeDetailCell.m; sourceTree = "<group>"; };
+		4CA9D26712CD2BB800F05A43 /* TradeDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradeDetailCell.xib; sourceTree = "<group>"; };
+		4CB72E1C12C2429300577378 /* ListTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTab.h; sourceTree = "<group>"; };
+		4CB72E1D12C2429300577378 /* ListTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTab.m; sourceTree = "<group>"; };
+		4CB72E2112C2430700577378 /* PortfolioTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioTab.h; sourceTree = "<group>"; };
+		4CB72E2212C2430700577378 /* PortfolioTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioTab.m; sourceTree = "<group>"; };
+		4CB72E2612C244D200577378 /* ListTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTab.xib; sourceTree = "<group>"; };
+		4CB72E3012C247A000577378 /* PortfolioTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfolioTab.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ETFEase-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ETFEase-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				4C86721712ED1AE800CA3B3E /* YAJL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ETFEaseAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ETFEaseAppDelegate.m */,
+				4CA9CDBF12C996F200F05A43 /* VariableStore.h */,
+				4CA9CDC012C996F200F05A43 /* VariableStore.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ETFEase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4CB72EA512C2EFF300577378 /* DataSource */,
+				4CB72E2912C2451200577378 /* ViewControllers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ETFEase_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3A30612CE8839004CC535 /* TradeDetailForPortfolio.xib */,
+				4CA9CC9912C8093100F05A43 /* icon_sort_az.png */,
+				4CA9CC7C12C7F84600F05A43 /* markets_selected.png */,
+				4CA9CC7D12C7F84600F05A43 /* markets_unselected.png */,
+				4CA9CC7E12C7F84600F05A43 /* news_selected.png */,
+				4CA9CC7F12C7F84600F05A43 /* news_unselected.png */,
+				4CA9CC8012C7F84600F05A43 /* portfolio_selected.png */,
+				4CA9CC8112C7F84600F05A43 /* portfolio_unselected.png */,
+				4CA9CC8212C7F84600F05A43 /* refresh.png */,
+				4CA9CC8312C7F84600F05A43 /* remove.png */,
+				4CA9CC8412C7F84600F05A43 /* search.png */,
+				4CA9CC7812C7F81900F05A43 /* add.png */,
+				4CA9CC7412C7F80000F05A43 /* icon.png */,
+				4CA9CC7012C7F7D000F05A43 /* filter.png */,
+				4CB72E2612C244D200577378 /* ListTab.xib */,
+				4CB72E3012C247A000577378 /* PortfolioTab.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ETFEase-Info.plist */,
+				4C8BFE9C12C53EF600083114 /* ETFCell.xib */,
+				4CA9D26712CD2BB800F05A43 /* TradeDetailCell.xib */,
+				4CA9CD1812C92C3A00F05A43 /* FilterView.xib */,
+				4CA9CFA412CB03E900F05A43 /* StrategyView.xib */,
+				4CA9CFC112CB0E7A00F05A43 /* SortView.xib */,
+				4CA9D0CF12CBCDCA00F05A43 /* TradeDetails.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C86721612ED1AE800CA3B3E /* YAJL.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB72E2912C2451200577378 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9CF9D12CAFF1F00F05A43 /* SortViewController.h */,
+				4CA9CF9E12CAFF1F00F05A43 /* SortViewController.m */,
+				4CB72E1C12C2429300577378 /* ListTab.h */,
+				4CB72E1D12C2429300577378 /* ListTab.m */,
+				4CB72E2212C2430700577378 /* PortfolioTab.m */,
+				4CB72E2112C2430700577378 /* PortfolioTab.h */,
+				4C8BFE9512C4F65400083114 /* ETFCell.h */,
+				4CA9D25912CD24AC00F05A43 /* TradeDetailCell.h */,
+				4CA9D25A12CD24AC00F05A43 /* TradeDetailCell.m */,
+				4C8BFE9612C4F65400083114 /* ETFCell.m */,
+				4CA9CCAE12C8E97F00F05A43 /* FilterViewController.h */,
+				4CA9CF9812CAFF0300F05A43 /* StrategyViewController.h */,
+				4CA9CF9912CAFF0300F05A43 /* StrategyViewController.m */,
+				4CA9CCAF12C8E97F00F05A43 /* FilterViewController.m */,
+				4CA9D0DC12CBDA6000F05A43 /* TradeDetailsViewController.h */,
+				4C879B3A12CE7E4E007B5746 /* TradeDetailVCForPortfolio.h */,
+				4C879B3B12CE7E4E007B5746 /* TradeDetailVCForPortfolio.m */,
+				4CA9D0DD12CBDA6000F05A43 /* TradeDetailsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4CB72EA512C2EFF300577378 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4C8BFD5112C2F51E00083114 /* Constants.h */,
+				4C8BFD5212C2F51E00083114 /* Constants.m */,
+				4C8BFD5312C2F51E00083114 /* ETF.h */,
+				4C8BFD5412C2F51E00083114 /* ETF.m */,
+				4C8BFD5512C2F51E00083114 /* ETFList.h */,
+				4C879A6B12CE390D007B5746 /* PortfolioList.h */,
+				4C879A6C12CE390D007B5746 /* PortfolioList.m */,
+				4C8BFD5612C2F51E00083114 /* ETFList.m */,
+				4C8BFD5712C2F51E00083114 /* ETFType.h */,
+				4C8BFD5812C2F51E00083114 /* ETFType.m */,
+				4C8BFD5912C2F51E00083114 /* Trade.h */,
+				4C8BFD5A12C2F51E00083114 /* Trade.m */,
+				4C8BFD5B12C2F51E00083114 /* Trades.h */,
+				4C8BFD5C12C2F51E00083114 /* Trades.m */,
+				4C8BFD5D12C2F51E00083114 /* UrlDownloaderOperation.h */,
+				4C8BFD5E12C2F51E00083114 /* UrlDownloaderOperation.m */,
+				4C8BFD5F12C2F51E00083114 /* XMLParser.h */,
+				4C8BFD6012C2F51E00083114 /* XMLParser.m */,
+				4C9C26F912FE02D400AD2F8C /* JSONParser.h */,
+				4C9C26FA12FE02D400AD2F8C /* JSONParser.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ETFEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ETFEase" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETFEase;
+			productName = ETFEase;
+			productReference = 1D6058910D05DD3D006BFB54 /* ETFEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ETFEase" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ETFEase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				4CB72E2712C244D200577378 /* ListTab.xib in Resources */,
+				4CB72E3112C247A000577378 /* PortfolioTab.xib in Resources */,
+				4C8BFE9D12C53EF600083114 /* ETFCell.xib in Resources */,
+				4CA9CC7112C7F7D000F05A43 /* filter.png in Resources */,
+				4CA9CC7512C7F80000F05A43 /* icon.png in Resources */,
+				4CA9CC7912C7F81900F05A43 /* add.png in Resources */,
+				4CA9CC8512C7F84600F05A43 /* markets_selected.png in Resources */,
+				4CA9CC8612C7F84600F05A43 /* markets_unselected.png in Resources */,
+				4CA9CC8712C7F84600F05A43 /* news_selected.png in Resources */,
+				4CA9CC8812C7F84600F05A43 /* news_unselected.png in Resources */,
+				4CA9CC8912C7F84600F05A43 /* portfolio_selected.png in Resources */,
+				4CA9CC8A12C7F84600F05A43 /* portfolio_unselected.png in Resources */,
+				4CA9CC8B12C7F84600F05A43 /* refresh.png in Resources */,
+				4CA9CC8C12C7F84600F05A43 /* remove.png in Resources */,
+				4CA9CC8D12C7F84600F05A43 /* search.png in Resources */,
+				4CA9CC9A12C8093100F05A43 /* icon_sort_az.png in Resources */,
+				4CA9CD1912C92C3A00F05A43 /* FilterView.xib in Resources */,
+				4CA9CFA512CB03E900F05A43 /* StrategyView.xib in Resources */,
+				4CA9CFC212CB0E7A00F05A43 /* SortView.xib in Resources */,
+				4CA9D0D012CBCDCA00F05A43 /* TradeDetails.xib in Resources */,
+				4CA9D26812CD2BB800F05A43 /* TradeDetailCell.xib in Resources */,
+				4CA3A30712CE8839004CC535 /* TradeDetailForPortfolio.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ETFEaseAppDelegate.m in Sources */,
+				4CB72E1E12C2429300577378 /* ListTab.m in Sources */,
+				4CB72E2312C2430700577378 /* PortfolioTab.m in Sources */,
+				4C8BFD6112C2F51E00083114 /* Constants.m in Sources */,
+				4C8BFD6212C2F51E00083114 /* ETF.m in Sources */,
+				4C8BFD6312C2F51E00083114 /* ETFList.m in Sources */,
+				4C8BFD6412C2F51E00083114 /* ETFType.m in Sources */,
+				4C8BFD6512C2F51E00083114 /* Trade.m in Sources */,
+				4C8BFD6612C2F51E00083114 /* Trades.m in Sources */,
+				4C8BFD6712C2F51E00083114 /* UrlDownloaderOperation.m in Sources */,
+				4C8BFD6812C2F51E00083114 /* XMLParser.m in Sources */,
+				4C8BFE9712C4F65400083114 /* ETFCell.m in Sources */,
+				4CA9CCB012C8E97F00F05A43 /* FilterViewController.m in Sources */,
+				4CA9CDC112C996F200F05A43 /* VariableStore.m in Sources */,
+				4CA9CF9A12CAFF0300F05A43 /* StrategyViewController.m in Sources */,
+				4CA9CF9F12CAFF1F00F05A43 /* SortViewController.m in Sources */,
+				4CA9D0DE12CBDA6000F05A43 /* TradeDetailsViewController.m in Sources */,
+				4CA9D25B12CD24AC00F05A43 /* TradeDetailCell.m in Sources */,
+				4C879A6D12CE390D007B5746 /* PortfolioList.m in Sources */,
+				4C879B3C12CE7E4E007B5746 /* TradeDetailVCForPortfolio.m in Sources */,
+				4C9C26FB12FE02D400AD2F8C /* JSONParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ETFEase_Prefix.pch;
+				INFOPLIST_FILE = "ETFEase-Info.plist";
+				PRODUCT_NAME = ETFEase;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ETFEase_Prefix.pch;
+				INFOPLIST_FILE = "ETFEase-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = ETFEase;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ETFEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ETFEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

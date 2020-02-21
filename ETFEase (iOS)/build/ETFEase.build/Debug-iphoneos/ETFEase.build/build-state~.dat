@@ -1,0 +1,914 @@
+TETFEase
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/ETFEaseAppDelegate.h
+c000000004D13F74800000000000001C2
+t1293154120
+s450
+i<UIKit/UIKit.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/ETFEaseAppDelegate.m
+c000000004D13F9360000000000000A39
+t1293154614
+s2617
+i"ETFEaseAppDelegate.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/VariableStore.h
+c000000004D1AB2140000000000000230
+t1293595156
+s560
+i<Foundation/Foundation.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/VariableStore.m
+c000000004D1AB19400000000000002E2
+t1293595028
+s738
+i"VariableStore.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Constants.h
+c000000004D12C9810000000000000367
+t1293076865
+s871
+i<Foundation/Foundation.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Constants.m
+c000000004CFAB8780000000000000404
+t1291499640
+s1028
+i"Constants.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETF.h
+c000000004D19D8A80000000000000578
+t1293539496
+s1400
+i<Foundation/Foundation.h>
+i"Trades.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETF.m
+c000000004D0EC7E6000000000000110D
+t1292814310
+s4365
+i"ETF.h"
+i"Trades.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFList.h
+c000000004D1B7D3B000000000000067C
+t1293647163
+s1660
+i<Foundation/Foundation.h>
+i"VariableStore.h"
+i"ETF.h"
+i"ListTab.h"
+i"UrlDownloaderOperation.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFList.m
+c000000004D1B7CF80000000000001380
+t1293647096
+s4992
+i"ETFList.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFType.h
+c000000004D12CA9B0000000000000109
+t1293077147
+s265
+i<Foundation/Foundation.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFType.m
+c000000004CE7BEF200000000000000C4
+t1290256114
+s196
+i"ETFType.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trade.h
+c000000004D1CEDDF00000000000002F0
+t1293741535
+s752
+i<Foundation/Foundation.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trade.m
+c000000004CE9A945000000000000034F
+t1290381637
+s847
+i"Trade.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trades.h
+c000000004D1B3BA500000000000003EC
+t1293630373
+s1004
+i<Foundation/Foundation.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trades.m
+c000000004D1B3D250000000000000BFC
+t1293630757
+s3068
+i"Trades.h"
+i"Trade.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/UrlDownloaderOperation.h
+c000000004D19D2B90000000000000308
+t1293537977
+s776
+i<Foundation/Foundation.h>
+i"ETFList.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/UrlDownloaderOperation.m
+c000000004D0536860000000000000CBA
+t1292187270
+s3258
+i"UrlDownloaderOperation.h"
+i"XMLParser.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/XMLParser.h
+c000000004D12CAE70000000000000388
+t1293077223
+s904
+i<Foundation/Foundation.h>
+i"ETFList.h"
+i"ETFList.h"
+i"ETF.h"
+i"Trades.h"
+i"Trade.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/XMLParser.m
+c000000004D0E0D7400000000000015F5
+t1292766580
+s5621
+i"Constants.h"
+i"XMLParser.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFCell.h
+c000000004D1C8AAE0000000000000281
+t1293716142
+s641
+i<UIKit/UIKit.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFCell.m
+c000000004D1B92500000000000000300
+t1293652560
+s768
+i"ETFCell.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFCell.xib
+c000000004D1B953200000000000067DC
+t1293653298
+s26588
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFEase_Prefix.pch
+c000000004D10949800000000000000B7
+t1292932248
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/FilterView.xib
+c000000004D1951C2000000000000649F
+t1293504962
+s25759
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/FilterViewController.h
+c000000004D1CC8F1000000000000022A
+t1293732081
+s554
+i<UIKit/UIKit.h>
+i"ListTab.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/FilterViewController.m
+c000000004D1CC93F0000000000000CEC
+t1293732159
+s3308
+i"FilterViewController.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ListTab.h
+c000000004D1CA10900000000000005B1
+t1293721865
+s1457
+i<UIKit/UIKit.h>
+i"ETFList.h"
+i"ETFCell.h"
+i"FilterViewController.h"
+i"StrategyViewController.h"
+i"SortViewController.h"
+i"TradeDetailsViewController.h"
+i"VariableStore.h"
+i"Trade.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ListTab.m
+c000000004D1CE57E000000000000147D
+t1293739390
+s5245
+i"ListTab.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ListTab.xib
+c000000004D1C9B19000000000000B8FF
+t1293720345
+s47359
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/MainWindow.xib
+c000000004D17D44D0000000000007156
+t1293407309
+s29014
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/PortfolioTab.h
+c000000004D120F3700000000000000DF
+t1293029175
+s223
+i<UIKit/UIKit.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/PortfolioTab.m
+c000000004D12103F0000000000000607
+t1293029439
+s1543
+i"PortfolioTab.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/PortfolioTab.xib
+c000000004D12BA520000000000003A90
+t1293072978
+s14992
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/SortView.xib
+c000000004D1AD8980000000000008789
+t1293605016
+s34697
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/SortViewController.h
+c000000004D1AD466000000000000022B
+t1293603942
+s555
+i<UIKit/UIKit.h>
+i"ListTab.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/SortViewController.m
+c000000004D1CC9FF0000000000000AD7
+t1293732351
+s2775
+i"SortViewController.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/StrategyView.xib
+c000000004D1AD09300000000000089A5
+t1293602963
+s35237
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/StrategyViewController.h
+c000000004D1AC9B80000000000000241
+t1293601208
+s577
+i<UIKit/UIKit.h>
+i"ListTab.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/StrategyViewController.m
+c000000004D1CC9B90000000000000B17
+t1293732281
+s2839
+i"StrategyViewController.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailCell.h
+c000000004D1CFC4000000000000001E7
+t1293745216
+s487
+i<UIKit/UIKit.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailCell.m
+c000000004D1CFC8C00000000000002E4
+t1293745292
+s740
+i"TradeDetailCell.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailCell.xib
+c000000004D1D5BA20000000000005475
+t1293769634
+s21621
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetails.xib
+c000000004D1D093A000000000000A9E6
+t1293748538
+s43494
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailsViewController.h
+c000000004D1D69400000000000000377
+t1293773120
+s887
+i<UIKit/UIKit.h>
+i"ListTab.h"
+i"ETF.h"
+i"TradeDetailCell.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailsViewController.m
+c000000004D1D6A400000000000001CE4
+t1293773376
+s7396
+i"TradeDetailsViewController.h"
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/add.png
+c000000004D17C7BB000000000000077B
+t1293404091
+s1915
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app.dSYM
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/ETFCell.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/ETFEase
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/FilterView.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/Info.plist
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/ListTab.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/MainWindow.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/PkgInfo
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/PortfolioTab.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/ResourceRules.plist
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/SortView.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/StrategyView.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/TradeDetailCell.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/TradeDetails.nib
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/add.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/filter.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/icon.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/icon_sort_az.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/markets_selected.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/markets_unselected.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/news_selected.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/news_unselected.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/portfolio_selected.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/portfolio_unselected.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/refresh.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/remove.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/search.png
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/Constants.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETF.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFCell.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFEase
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFEase.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFEaseAppDelegate.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFList.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFType.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/FilterViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ListTab.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/PortfolioTab.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/SortViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/StrategyViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/Trade.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/TradeDetailCell.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/TradeDetailsViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/Trades.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/UrlDownloaderOperation.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/VariableStore.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/XMLParser.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/Constants.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETF.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFCell.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFEase
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFEase.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFEaseAppDelegate.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFList.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFType.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/FilterViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ListTab.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/PortfolioTab.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/SortViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/StrategyViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/Trade.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/TradeDetailCell.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/TradeDetailsViewController.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/Trades.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/UrlDownloaderOperation.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/VariableStore.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/XMLParser.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/filter.png
+c000000004D17C6D80000000000000692
+t1293403864
+s1682
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/icon.png
+c000000004BC9237C0000000000000E89
+t1271473020
+s3721
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/icon_sort_az.png
+c000000004AA912100000000000000296
+t1252594192
+s662
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/main.m
+c000000004D109498000000000000016F
+t1292932248
+s367
+i<UIKit/UIKit.h>
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/markets_selected.png
+c000000004AE68ADA0000000000000461
+t1256622810
+s1121
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/markets_unselected.png
+c000000004AE68ADA000000000000035B
+t1256622810
+s859
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/news_selected.png
+c000000004AE68ADA0000000000000271
+t1256622810
+s625
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/news_unselected.png
+c000000004AE68ADA000000000000056D
+t1256622810
+s1389
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/portfolio_selected.png
+c000000004AE68ADA00000000000003AF
+t1256622810
+s943
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/portfolio_unselected.png
+c000000004AE68ADA000000000000031F
+t1256622810
+s799
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/refresh.png
+c000000004D17C7F1000000000000061D
+t1293404145
+s1565
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/remove.png
+c000000004B9D6C180000000000000520
+t1268608024
+s1312
+
+N/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/search.png
+c000000004D17C85D00000000000005B8
+t1293404253
+s1464
+
+N/var/folders/FN/FNC6AWDPGYyM2Beszkp1Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ETFEase_Prefix-algxcwlbdzmthhemorwbluugfvnw/ETFEase_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/FN/FNC6AWDPGYyM2Beszkp1Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ETFEase_Prefix-ffhkijeqpqazxzgfgcxvhxkepuyo/ETFEase_Prefix.pch.gch
+t2
+s0
+
+NETFEase-Info.plist
+c000000004D109498000000000000038D
+t1292932248
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315468161#315468161#0(136"[BEROR]Code Sign error: a valid provisioning profile matching the application's Identifier 'com.yourcompany.ETFEase' could not be found1(4@128"Code Sign error: a valid provisioning profile matching the application's Identifier 'com.yourcompany.ETFEase' could not be found315468161#18446744073709551615#0#0(1@0"0(0#1#0"8667191488#0"0#
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/Constants.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Constants.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETF.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETF.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFCell.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFEaseAppDelegate.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/ETFEaseAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFList.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFList.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFType.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFType.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/FilterViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/FilterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ListTab.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ListTab.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/PortfolioTab.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/PortfolioTab.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/SortViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/SortViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/StrategyViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/StrategyViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/Trade.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trade.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/TradeDetailCell.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/TradeDetailsViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailsViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/Trades.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trades.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/UrlDownloaderOperation.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/UrlDownloaderOperation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/VariableStore.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/VariableStore.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/XMLParser.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/XMLParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/main.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/Constants.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Constants.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETF.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETF.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFCell.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFCell.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFEaseAppDelegate.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/ETFEaseAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFList.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFList.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFType.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/ETFType.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/FilterViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/FilterViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ListTab.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ListTab.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/PortfolioTab.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/PortfolioTab.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/SortViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/SortViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/StrategyViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/StrategyViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/Trade.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trade.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/TradeDetailCell.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailCell.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/TradeDetailsViewController.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailsViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/Trades.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/Trades.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/UrlDownloaderOperation.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/UrlDownloaderOperation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/VariableStore.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/Classes/VariableStore.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/XMLParser.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/DataSource/XMLParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/main.o "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ETFCell.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/FilterView.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/ListTab.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/PortfolioTab.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/SortView.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/StrategyView.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetailCell.xib"
+r0
+
+CCompileXIB "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/TradeDetails.xib"
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/add.png" add.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/filter.png" filter.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/icon.png" icon.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/icon_sort_az.png" icon_sort_az.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/markets_selected.png" markets_selected.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/markets_unselected.png" markets_unselected.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/news_selected.png" news_selected.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/news_unselected.png" news_unselected.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/portfolio_selected.png" portfolio_selected.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/portfolio_unselected.png" portfolio_unselected.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/refresh.png" refresh.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/remove.png" remove.png
+r0
+
+CCopyPNGFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/search.png" search.png
+r0
+
+CCpResource build/Debug-iphoneos/ETFEase.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/ETFEase" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app.dSYM" "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/ETFEase"
+r0
+
+CLd "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv6/ETFEase" normal armv6
+r0
+
+CLd "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/ETFEase.build/Debug-iphoneos/ETFEase.build/Objects-normal/armv7/ETFEase" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app/Info.plist" ETFEase-Info.plist
+r0
+
+CProcessPCH /var/folders/FN/FNC6AWDPGYyM2Beszkp1Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ETFEase_Prefix-algxcwlbdzmthhemorwbluugfvnw/ETFEase_Prefix.pch.gch ETFEase_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/FN/FNC6AWDPGYyM2Beszkp1Kk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ETFEase_Prefix-ffhkijeqpqazxzgfgcxvhxkepuyo/ETFEase_Prefix.pch.gch ETFEase_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/mlindeboom/Desktop/NJIT iPhone Class/Assignments/ETFEase/build/Debug-iphoneos/ETFEase.app"
+r0
+

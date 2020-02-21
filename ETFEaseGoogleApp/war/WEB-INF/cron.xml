@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<cronentries> 
+  <cron> 
+    <url>/etfeasegoogleapp/refreshAll</url> 
+    <description>Refresh etflist every 30 min</description> 
+    <schedule>every 30 minutes</schedule> 
+  </cron> 
+  <cron> 
+    <url>/etfeasegoogleapp/refreshCache</url> 
+    <description>Refresh cache</description> 
+    <schedule>every 2 minutes</schedule> 
+  </cron> 
+</cronentries>

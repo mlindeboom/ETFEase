@@ -1,0 +1,137 @@
+package com.etfease.datasource;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Trades {
+
+	private ETFFilterType etfFilterType;
+	private float total;
+	private List<Trade> trades = new  ArrayList <Trade> ();
+	
+	
+	public void addTrade(float shares, float tradeAmount, float remainingAmount, float fee, String date){
+		trades.add(new Trade(shares, tradeAmount, remainingAmount, fee, date));
+	}
+	
+	public float getTotal(){
+		return total;
+	}
+	
+	public List <Trade> getTrades(){
+		return trades;
+	}
+
+
+	class Trade{
+		float shares;
+		float tradeAmount;
+		float fee;
+		String date;
+		float remainingAmount;
+
+		public Trade(float shares, float tradeAmount, float remainingAmount, float fee, String date){
+			this.shares = shares;
+			this.tradeAmount = tradeAmount;
+			this.fee = fee;
+			this.date = date;
+			this.remainingAmount = remainingAmount;
+		}
+		
+		
+		/**
+		 * @return the shares
+		 */
+		public float getShares() {
+			return shares;
+		}
+		/**
+		 * @param shares the shares to set
+		 */
+		public void setShares(float shares) {
+			this.shares = shares;
+		}
+		/**
+		 * @return the fee
+		 */
+		public float getFee() {
+			return fee;
+		}
+		/**
+		 * @param fee the fee to set
+		 */
+		public void setFee(float fee) {
+			this.fee = fee;
+		}
+		/**
+		 * @return the date
+		 */
+		public String getDate() {
+			return date;
+		}
+		/**
+		 * @param date the date to set
+		 */
+		public void setDate(String date) {
+			this.date = date;
+		}
+
+
+		/**
+		 * @return the tradeAmount
+		 */
+		public float getTradeAmount() {
+			return tradeAmount;
+		}
+
+
+		/**
+		 * @param tradeAmount the tradeAmount to set
+		 */
+		public void setTradeAmount(float tradeAmount) {
+			this.tradeAmount = tradeAmount;
+		}
+
+
+		/**
+		 * @return the remainingAmount
+		 */
+		public float getRemainingAmount() {
+			return remainingAmount;
+		}
+
+
+		/**
+		 * @param remainingAmount the remainingAmount to set
+		 */
+		public void setRemainingAmount(float remainingAmount) {
+			this.remainingAmount = remainingAmount;
+		}
+	}
+
+
+	/**
+	 * @return the etfFilter
+	 */
+	public ETFFilterType getEtfFilterType() {
+		return etfFilterType;
+	}
+
+	/**
+	 * @param etfFilter the etfFilter to set
+	 */
+	public void setEtfFilterType(ETFFilterType etfFilterType) {
+		this.etfFilterType = etfFilterType;
+	}
+
+	/**
+	 * @param total the total to set
+	 */
+	public void setTotal(float total) {
+		this.total = total;
+	}
+
+
+
+}

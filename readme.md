@@ -4,4 +4,4 @@ The GoogleAppEngine service uses a list of etfs to query yahoo financials for da
 
 The iOS and Android applications call the service and alert the device owner if there are any trade recommendations pending.
 
-After writing the applications, I ran a live test, borrowing $2000.00 from my household account and following the recommended trades. As a tool for learning, it was invaluable. It was also very efficiant at losing money as $2000.00 became $700.00!
+After writing the applications, I ran a live test, borrowing $2000.00 from my household account and following the recommended trades. As a tool for learning, it was invaluable. It was also very efficient at losing money as $2000.00 became $700.00!

@@ -1,4 +1,4 @@
-An ETF tradng application based upon an ebook on "proven profitable algorthms". It is built as a tool for learning AppEngine, Android and iOS programming. 
+An ETF tradng application based upon an ebook on "proven profitable algorithms". It is built as a tool for learning AppEngine, Android and iOS programming. 
 
 The GoogleAppEngine service uses a list of etfs to query yahoo financials for data. The service also executes the filter algorithms used to recommend trades. 
 
